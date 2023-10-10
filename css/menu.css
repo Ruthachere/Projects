@@ -1,0 +1,175 @@
+body{
+    margin: auto;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+}
+.ul{
+    display: flex; 
+    margin-top: 10px;  
+}
+.li{
+    list-style: none;
+    padding: 0px 30px 0px 0px;
+    
+}
+.li a{
+    text-decoration: none;
+    color: rgb(12, 180, 12);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+.logo{
+    padding-left: 30px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: black;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.head{
+    position: absolute;
+    top: 2%;
+    right: 43%;
+    margin: 10px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 800;
+    border-bottom: 3px dotted orange;
+}
+.container{
+    display: flex;
+    position: absolute;
+    right: 22%;
+    /* left: 30%; */
+    top: 17%;
+    
+}
+.btn{
+    background-color: white;
+    border: 2px solid rgba(235, 170, 49, 0.819);
+    color: rgba(235, 170, 49, 0.819);
+    font-size: 19px;
+    font-weight: 600;
+    padding: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: lightyellow;
+    color: black;
+}
+.btn-1, .btn-2, .btn-3, .btn-4,.btn-5{
+    margin-right: 50px;
+}
+.image{
+    width:20vw;
+    height: 32vh;
+    object-fit: fill;
+    border: 2px solid orange;
+}
+.container2{
+    position: absolute;
+    top: 30%;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* margin: auto; */
+    margin: 0px 30px 0px 30px;
+}
+.griditem{
+    display: flex;
+    padding-bottom: 30px;
+    padding-right: 30px;
+
+}
+.product-img{
+    margin-right: 10px;
+}
+h2{
+    border-bottom: 2px solid rgba(235, 170, 49, 0.819);
+}
+p{
+    font-size: 18px;    
+}
+span{
+    font-size: 19px;
+    font-weight: 800;
+    color: black;
+}
+h1{
+    color: orange;
+}
+@media screen and (max-width:1024px) {
+    .container{
+        right: 5%;
+        top: 15%;
+    }
+    .head{
+        right: 40%;
+    }
+    .container2{
+        top: 23%;
+    }
+   .grid-container{
+    grid-template-columns: 50% 50%;
+   }
+   .image{
+    width: 25vw;
+    height: 25vh;
+   }
+   .product-des{
+    width: 20vw;
+   }
+   .griditem{
+    padding: 0px 10px 20px 0px;
+   }
+   p{
+    font-size: 15px;
+   }
+   span{
+    font-size: 16px;
+   }
+   h2{
+    font-size: 19px;
+   }
+}
+@media screen and (max-width:765px) {
+    .container{
+      left: 10%;  
+        top: 15%;
+    }
+    .head{
+        right: 10%;
+    }
+    .container2{
+        top: 23%;
+    }
+    .btn-1, .btn-2, .btn-3, .btn-4,.btn-5{
+        margin-right: 10px;
+    }
+   .grid-container{
+    grid-template-columns: 100%;
+   }
+   .image{
+    width: 70vw;
+    height: 40vh;
+   }
+   .product-des{
+    width: 50vw;
+   }
+   .griditem{
+    padding: 0px 20px 10px 0px;
+   }
+   p{
+    font-size: 17px;
+   }
+   span{
+    font-size: 18px;
+   }
+}

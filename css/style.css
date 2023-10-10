@@ -207,6 +207,10 @@ h5{
     text-align: center;
     margin: 0px 0px 0px 30px;
 }
+.btn-3 a, .btn-1 a{
+    text-decoration: none;
+    color: black;
+}
 /* .slide{
      background-image: url('orig.jpg'); 
     background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).webp");
@@ -303,6 +307,11 @@ cite{
     list-style: none;
     text-decoration: none;
  /* padding: 0px 20px 0px ; */
+}
+.head-4{
+    font-size: 22px;
+    font-weight: 700;
+    font-family:  'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 @media screen and (max-width:1200px) {
     .grid-container2{
