@@ -1,4 +1,5 @@
 let foodContainer = document.querySelector('.grid-container');
+//array of ojects containing the various menu
 const fooditem = [
     {
         FoodName: "Pancakes",
@@ -87,6 +88,13 @@ const fooditem = [
         des: "Korma is a gravy dish that is usually made with yogurt, lots of nuts and spices. A Mughal era original, Chicken Korma is the perfect dinner party dish that is easy, quick and a no fuss recipe."
     },
     {
+        FoodName: "Coffee",
+        foodimg: 'images/coffee.jpg',
+        price: "RS 250",
+        category: "Breakfast",
+        des: "Korma is a gravy dish that is usually made with yogurt, lots of nuts and spices. A Mughal era original, Chicken Korma is the perfect dinner party dish that is easy, quick and a no fuss recipe."
+    },
+    {
         FoodName: "Trophical Fruit salad",
         foodimg: 'images/TROPICAL-FRUIT-SALAD-SQUARE.jpg',
         price: "RS 600",
@@ -96,12 +104,14 @@ const fooditem = [
 ];
 const foodbox = document.querySelectorAll('.griditem');
 const menu = document.querySelectorAll('.btn');
+//load of event lissteners for windows
 window.addEventListener("DOMContentLoaded", function() {
     displayFood(fooditem);
 });
 menu.forEach(function (btn) {
     btn.addEventListener("click", function (e) {
         const category = e.currentTarget.dataset.id;
+        //creating a new array of objects for the menu
         const menuCategory = fooditem.filter(function(item) {    
            if (item.category === category) {
             return item; 
@@ -131,6 +141,7 @@ menu.forEach(function (btn) {
 // food = food.join("");
 // foodContainer.innerHTML = food;
 // };
+//function to display the menu
 function displayFood(item) {
     foodContainer.innerHTML = "";
     for (let i = 0; i < item.length; i++) {
