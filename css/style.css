@@ -309,16 +309,16 @@ cite{
     font-weight: 800;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-@media screen and (max-width:1024px) {
+.link-ul{
+    display: flex;
+}
+@media screen and (max-width:1100px) {
     .grid-container2{
         grid-template-columns: 50% 50%;
 
     }
     .grid-container3, .grid-container4{
         grid-template-columns: auto auto;
-    }
-    .image-one{
-        width: 355px;
     }
     .image-two{
         height: 60vh;
@@ -331,44 +331,67 @@ cite{
     .carousel{
         height: 52vh;
     }
-}
-/* @media screen and (min-width:912px){
-    .grid-one{
-        width: 100%;
+    .grid-container5{
+        padding: 0px 20px 0px 30px;
     }
- .image-one{
-    width: 423px;
- }
-} */
+}
 
 @media screen and (max-width:756px){
     .grid-container, .grid-container2, .grid-container3,.grid-container4,.container{
         display: grid;
         grid-template-columns: auto;
     }
+    /* .navbar{
+        display: block;
+    } */
     .ul{
-        display: none;
+        display: block;
+    }
+    .li{
+        padding: 0px;
     }
     .cont{
         display: none;
     }
     .carousel{
-        height: 100vh;
+        height: 80vh;
     }
     .carousel-button{
-        top: 96%;
+        top: 75%;
         font-size: 1rem;
     }
     .grid-container5{
-        display: none;
+        display: block;
+        text-align: center;
+        padding: 0;
     }
     .item{
         display: none;
     }
     .carousel-button.prev{
-    left: 6rem;
+    left: -2rem;
 }
-.carousel-button.next{
-    right: 6rem;
+    .carousel-button.next{
+    right: -2rem;
+}
+    .image-one{
+    width: 100%;
+}
+    h1{
+    font-size: 40px;
+}
+    .grid-one{
+    padding-bottom: 30px;
+}
+   .grid-item{
+    padding: 0px;
+    padding-top: 20px;
+    text-align: center;
+}
+    .image-two{
+    height: 40vh;
+}
+    .about-section{
+    padding: 0;
 }
 }

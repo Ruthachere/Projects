@@ -143,13 +143,14 @@ h1{
 @media screen and (max-width:765px) {
     .container{
       left: 10%;  
-        top: 15%;
+        top: 24%;
     }
     .head{
         right: 10%;
+        top: 96px;
     }
     .container2{
-        top: 23%;
+        top: 32%;
     }
     .btn-1, .btn-2, .btn-3, .btn-4,.btn-5{
         margin-right: 10px;
@@ -173,4 +174,10 @@ h1{
    span{
     font-size: 18px;
    }
+   .ul{
+    display: block;
+}
+.li{
+    padding: 0px;
+}
 }
