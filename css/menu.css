@@ -147,7 +147,7 @@ h1{
     }
     .head{
         right: 10%;
-        top: 96px;
+        top: 70px;
     }
     .container2{
         top: 32%;
@@ -160,7 +160,8 @@ h1{
    }
    .image{
     width: 70vw;
-    height: 40vh;
+    height: 30vh;
+    object-fit: fill;
    }
    .product-des{
     width: 50vw;
