@@ -157,11 +157,11 @@ h1{
     }
    .grid-container{
     grid-template-columns: 100%;
+    column-gap:20px ;
    }
    .image{
     width: 70vw;
-    height: 30vh;
-    object-fit: fill;
+    height: 34vh;
    }
    .product-des{
     width: 50vw;
@@ -170,7 +170,7 @@ h1{
     padding: 0px 20px 10px 0px;
    }
    p{
-    font-size: 17px;
+    font-size: 14px;
    }
    span{
     font-size: 18px;
@@ -180,5 +180,9 @@ h1{
 }
 .li{
     padding: 0px;
+}
+.navbar{
+    width: 65vh;
+    max-width: 785%;
 }
 }
