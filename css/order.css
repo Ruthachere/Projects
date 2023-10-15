@@ -169,6 +169,7 @@ p{
 @media screen and (max-width:768px) {
     form{
         width: 70%;
+        padding: 30px 20px 20px 40px;
     }
     .form{
         width: 100vw;
@@ -176,12 +177,23 @@ p{
         
     }
     form{
-        left: 10%;
+        left: 7%;
     }
     .ul{
         display: block;
     }
     .li{
         padding: 0px;
+    }
+    .grid-container5{
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    input, textarea{
+        width: 86%;
+    }
+    select{
+        width: 94%;
     }
 }
