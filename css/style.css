@@ -394,4 +394,12 @@ cite{
     .about-section{
     padding: 0;
 }
+.span{
+    display: block;
+}
+.link-ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+}
 }
