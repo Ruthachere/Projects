@@ -160,4 +160,26 @@ function displayFood(item) {
 foodContainer.innerHTML += listitem; 
     }  
 }
+const hamburgerMenu = document.querySelector(".ul");
+const menuItems = document.querySelectorAll(".lis");
+const hamburger= document.querySelector(".hamburger");
+const closeIcon= document.querySelector(".closeicon");
+const menuIcon = document.querySelector(".menuicon");
 
+function toggleMenu() {
+  if (hamburgerMenu.classList.contains("showMenu")) {
+    hamburgerMenu.classList.remove("showMenu");
+    closeIcon.style.display = "none";
+    menuIcon.style.display = "block";
+  } else {
+    hamburgerMenu.classList.add("showMenu");
+    closeIcon.style.display = "block";
+    menuIcon.style.display = "none";
+  }
+}
+hamburger.addEventListener("click", toggleMenu);
+
+menuItems.forEach( 
+  function(menuItem) { 
+    menuItem.addEventListener("click", toggleMenu);
+});
