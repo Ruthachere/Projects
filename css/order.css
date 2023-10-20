@@ -179,9 +179,6 @@ p{
     form{
         left: 7%;
     }
-    .ul{
-        display: block;
-    }
     .li{
         padding: 0px;
     }
@@ -204,4 +201,33 @@ p{
     .span{
         display: block;
     }
+    .lis a{
+        display: block;
+        margin: 2rem 4rem;
+      } 
+      
+      .hamburger {
+        display: block;
+        position: absolute;
+        z-index: 100;
+        top: 1rem;
+        right: 1rem;
+        padding: 4px;
+        border: black solid 1px;
+        background: white;
+        cursor: pointer;
+      }
+      
+      .closeicon {
+        display: none;
+      }
+     
+      .ul{
+        display: none;
+      }
+      .showMenu {
+        transform: translateY(1%);
+        display: block;
+        padding-right: 37px;
+      }
 }
