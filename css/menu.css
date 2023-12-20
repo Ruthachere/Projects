@@ -105,6 +105,9 @@ span{
 h1{
     color: orange;
 }
+.hamburger{
+    display: none;
+}
 
 @media screen and (max-width:1024px) {
     .container{
@@ -138,6 +141,9 @@ h1{
    }
    h2{
     font-size: 19px;
+   }
+   .hamburger{
+    display: none;
    }
 }
 @media screen and (max-width:765px) {

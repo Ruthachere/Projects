@@ -153,6 +153,9 @@ p{
 .link-ul{
     display: flex;
 }
+.hamburger{
+    display: none;
+}
 @media screen and (max-width:1024px) {
     form{
         width: 55%;
@@ -164,6 +167,9 @@ p{
     }
     form{
         left: 22%;
+    }
+    .hamburger{
+        display: none;
     }
 }
 @media screen and (max-width:768px) {

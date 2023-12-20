@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+}
+.form{
+    background-image: url('https://th.bing.com/th/id/R.dd5d9fbdd03a3b47d21baa8633231e67?rik=a3iMyOmV0XwEwA&riu=http%3a%2f%2fwww.baltana.com%2ffiles%2fwallpapers-2%2fFood-HD-Wallpapers-04864.jpg&ehk=oCGq87EnzGa53wpyGPk3aNhI03hKYPPWLQVzqCKdPe0%3d&risl=&pid=ImgRaw&r=0');
+     width: 100%; 
+     background-size: cover;
+     background-position: center;
+    height: 100vh;
+    position: relative;
+    background-color: #000;
+    opacity: 0.2;
+}
+.container{
+    background-color: #000;
+    position: relative;
+}
+
+form{
+    background-color:rgba(0, 0, 0, 0.502) ;
+    border-radius: 18px;
+    position: absolute;
+    width: 40%;
+    padding: 40px 0px 40px 60px;
+    /* top: 15%;
+    left: 25%; */
+}
+label{
+    color:white;
+    font-size: 19px;
+    font-weight: 500;
+    display: block;
+    
+}
+
+#password, #email{
+    background-color: none;
+    padding: 10px; 
+    outline: none;
+    border: none;
+    background-color:white ;
+    margin: 8px 0;
+    margin-bottom: 17px;
+    width: 80%;
+    display: block;
+    border-radius: 4px;
+}
+.main{
+    border:3px solid orange;
+    border-radius: 10px;
+    left: 4.5%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: absolute;
+    top: 3%;
+    width: 90%;
+    height: 95%;
+}
+.main2{
+        border:3px solid orange;
+        border-radius: 10px;
+        left: 4%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        position: absolute;
+        top: 3%;
+        width: 90%;
+        height: 95%;
+    }
+h2{
+    color: white;
+    text-align: center;
+}
+.btn{
+    width: 90%;
+    padding: 7px;
+    font-size: 20px;
+    margin: auto;
+    color: white;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid orange;
+    background-color: orange;
+    border-radius: 30px;
+}
+.div{
+    margin: auto;
+    padding-top: 20px;
+    width: 60%;
+}
+.div1, .div2{
+     padding: 35px;
+}
+.image1{
+    width:45%;
+    height: 75%;
+    position: absolute;
+    top: 10%;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+a{
+    color: white;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.para{
+    width: 84%;
+}
+h4{
+    color: white;
+    text-align: right;
+}
+h4 a{
+    text-decoration: none;
+}
+.container-two{
+    display: flex;
+    margin: 0px 60px 0px 0px ;
+    padding: 20px;
+    justify-content: space-between;
+}
+.btn-2{
+    width: 30%;
+    padding: 7px;
+    font-size: 17px;
+    border-radius: 30px;
+}
+.btn-2:hover{
+    background-color: rgba(210, 143, 19, 0.997);
+    border: 2px solid white;
+    cursor: pointer;
+}
+h5{
+    text-align: center;
+    color: white;
+}
+.error{
+    color: red;
+}
+
+#togglePassword{
+    margin-left: -220px;
+    color: rgb(180, 33, 33);
+}
+@media screen and (max-width:1024px) {
+    .main, .main2{
+        grid-template-columns: auto ;
+        width: 90%;
+    }
+    .image1{
+        top: 4%;
+        width: 90%;
+        height: 45%;
+    }
+    form{
+        width:82%;
+    }
+    
+}
+
