@@ -28,8 +28,8 @@ form{
     position: absolute;
     width: 40%;
     padding: 40px 0px 40px 60px;
-    /* top: 15%;
-    left: 25%; */
+    top: 1%;
+
 }
 label{
     color:white;
@@ -71,7 +71,7 @@ label{
         display: grid;
         grid-template-columns: 50% 50%;
         position: absolute;
-        top: 3%;
+        top: 2%;
         width: 90%;
         height: 95%;
     }
@@ -155,18 +155,45 @@ h5{
     margin-left: -220px;
     color: rgb(180, 33, 33);
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1026px) {
+   
     .main, .main2{
         grid-template-columns: auto ;
         width: 90%;
+        height: 80%;
     }
     .image1{
+        display: none;
         top: 4%;
         width: 90%;
         height: 45%;
     }
     form{
         width:82%;
+        top: 0%;
+    }
+    
+}
+@media screen and (max-width:765px) {
+   
+    .main, .main2{
+        grid-template-columns: auto ;
+        width: 90%;
+        height: 80%;
+    }
+    .image1{
+        display: none;
+        top: 4%;
+        width: 90%;
+        height: 45%;
+    }
+    form{
+        width:82%;
+        left: 1%;
+        top: 0%;
+    }
+    .container-two{
+        display: contents;
     }
     
 }
