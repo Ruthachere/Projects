@@ -60,6 +60,10 @@ form.addEventListener("submit", function(e) {
 
     //       removeErrorElement(password);
     //    }
+    // function navigateTo() {
+    //     window.location.href = `./${index.html}`;
+    // }
+    
     if (email.value.trim() === '' || password.value.trim() === '') {
        addErrorElement(email, "This is required");
        addErrorElement(password, "This is required");
@@ -68,7 +72,7 @@ form.addEventListener("submit", function(e) {
         // If all inputs are filled, navigate to the next page
         removeErrorElement(password);
         removeErrorElement(email);
-        window.location.href = 'index.html'; 
+       window.location.href = 'menu.html'; 
      } 
        form.reset();
        let array = JSON.stringify(todos);
