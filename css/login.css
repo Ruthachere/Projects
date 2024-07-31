@@ -54,6 +54,7 @@ label{
     width: 80%;
     display: block;
     border-radius: 4px;
+    color: white;
 }
 .main{
     border:3px solid orange;
@@ -197,7 +198,7 @@ h5{
         display: flex;
         flex-direction: column-reverse;
         width: 90%;
-        height: 100%;
+        height: 95%;
     }
     .div1{
         display: none;
